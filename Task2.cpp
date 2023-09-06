@@ -1,0 +1,1 @@
+#include <cpp_api/navigation_bridge.h>Navigation nav;int main(int argc, char *argv[]){    nav.take_off(10.0);                nav.position_set(10,5,-10);           nav.position_set(10,0,-10);    nav.position_set(0,0,-10);    nav.land(false);                 }
